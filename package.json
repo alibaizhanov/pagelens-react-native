@@ -1,0 +1,14 @@
+{
+  "name": "pagelens-react-native",
+  "version": "1.0.0",
+  "description": "Privacy-friendly analytics for React Native and Expo apps — PageLens SDK. No device storage, no tracking prompt.",
+  "main": "src/index.js",
+  "types": "index.d.ts",
+  "files": ["src", "index.d.ts", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test test/" },
+  "keywords": ["analytics", "react-native", "expo", "privacy", "cookieless", "pagelens"],
+  "homepage": "https://pagelens.io/docs/install/react-native",
+  "repository": { "type": "git", "url": "git+https://github.com/alibaizhanov/pagelens-react-native.git" },
+  "license": "MIT",
+  "peerDependencies": { "react-native": ">=0.64" }
+}
